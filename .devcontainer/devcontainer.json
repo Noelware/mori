@@ -1,0 +1,17 @@
+{
+    "name": "mori",
+    "image": "ghcr.io/auguwu/coder-images/rust:latest",
+    "containerUser": "noel",
+    "remoteUser": "noel",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "rust-lang.rust-analyzer"
+            ]
+        }
+    },
+    "features": {
+        // sshd is required for JetBrains Gateway when using Codespaces
+        "ghcr.io/devcontainers/features/sshd:1": {}
+    }
+}

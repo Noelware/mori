@@ -13,11 +13,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-[package]
-name = "mori-server"
-description = "🐻‍❄️🎨 Experimental task scheduling server for scheduling tasks with inter-process communication support"
-version = "0.0.0"
-authors = ["Noel Miko <cutie@floofy.dev>", "Noelware Team <team@noelware.org>"]
-license = "Apache-2.0"
-homepage = "https://noelware.org/docs/services/mori/current"
-edition = "2021"
+FROM rustlang/rust:nightly-alpine3.15 AS builder
