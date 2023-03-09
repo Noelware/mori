@@ -13,4 +13,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM rust:1.67-slim AS builder
+FROM rust:1.68-slim AS builder
